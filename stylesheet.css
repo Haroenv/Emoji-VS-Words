@@ -23,7 +23,7 @@
 }
 
 
-input {
+textarea {
 	width:50%;
 	position:absolute;
 	letter-spacing: 0.12em;
