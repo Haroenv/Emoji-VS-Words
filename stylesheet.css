@@ -1,0 +1,131 @@
+
+@font-face {
+ font-family: 'an';
+ src: url('cmunit-webfont.eot');
+ src: url('cmunit-webfont.eot?#iefix') format('embedded-opentype'),
+ url('cmunit-webfont.woff') format('woff'),
+ url('cmunit-webfont.ttf') format('truetype'),
+ url('cmunit-webfont.svg#FontName') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+
+@font-face {
+ font-family: 'fr';
+ src: url('ume-p-gothic_balsa-bold-webfont.eot');
+ src: url('ume-p-gothic_balsa-bold-webfont.eot?#iefix') format('embedded-opentype'),
+ url('ume-p-gothic_balsa-bold-webfont.woff') format('woff'),
+ url('ume-p-gothic_balsa-bold-webfont.ttf') format('truetype'),
+ url('cmunit-webfont.svg#FontName') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+
+input {
+	width:50%;
+	position:absolute;
+	letter-spacing: 0.12em;
+	padding-top: 1vw;
+	line-height: 2vw;
+	/* mettre aussi en % pour ne pas que ca deconne pas sur mobile, safari et autres*/
+	margin-left: 25%;
+	margin-top: 3.5vw;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+a:hover {
+	color:black;
+}
+
+a:visited {
+	color:black;
+}
+
+.fr a {
+    text-decoration: none;
+    position: relative;
+}
+ .fr a:after {
+ 	content:"";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    border-width: 0 0 0.25vw;
+    border-style: solid;
+}
+
+
+.an a {
+    text-decoration: none;
+    position: relative;
+}
+ .an a:after {
+ 	content:"";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0.3vw;
+    border-width: 0 0 0.17vw;
+    border-style: dotted;
+}
+
+.fr {
+
+	text-decoration: none;
+	font-family:'fr', sans-serif, helvetica, arial;
+	color:black;
+	text-transform : uppercase;
+    font-size:1.25vw;
+    letter-spacing: 0.15vw;
+	word-spacing: 0.32vw;
+}
+
+.an { 
+	text-decoration: none;
+	font-family:'an', serif, georgia;
+	color:black;
+	font-size: 1.3vw;
+	letter-spacing: 0.02vw;
+	padding-left:7%;
+
+}
+
+.nom {
+	font-family:'fr', sans-serif, helvetica, arial;
+	font-size:0.9vw;
+	margin-left: 7%;
+	text-transform: uppercase;
+	letter-spacing: 0.16vw;
+	line-height: 0.4vw;	
+
+	
+}
+
+.prenom { 
+	font-family:'an', serif, georgia;
+	font-size: 1vw;
+	letter-spacing: 0.02vw;
+	line-height: 0.4vw;
+	margin-bottom:0vw;
+}
+
+
+.ponctu {
+	letter-spacing: -1vw;
+
+}
+
+
+
+
+
+
+
+

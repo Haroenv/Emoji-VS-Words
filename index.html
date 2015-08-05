@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<title>Sommaire</title>
+
+
+	</head>
+	
+	<body>
+
+<input  type="text" class="fr" name="text" id="text"/>
+
+<script>
+
+var replaceCommand = ['happy', 'sad', 'smile' , 'joy' , 'smiling' , 'smiling' , 'sweat' , 'closed eyes' , 'wink' , 'smiling eyes' , 'delicious' , 'relieved' , 'heart-shaped'];
+var replaceOutput = ['😃', '😂' , '😁' , '😂' , '😃' , '😄' , '😅' , '😆' , '😉' , '😊' , '😋' , '😌' , '😍'];
+
+$('#text').keyup(function(){
+    var text = $('#text').val();
+    for (var i=0; i < replaceCommand.length; i++){
+        text = text.replace(replaceCommand[i],replaceOutput[i]);
+    }
+    $('#text').val(text);
+});
+</script>
+
+
+	</body>
+
+</html>
+
+
