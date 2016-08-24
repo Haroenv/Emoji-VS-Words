@@ -1,32 +1,25 @@
-
 @font-face {
- font-family: 'sourcesans';
- src: url('sourcesanspro-regular-webfont.eot');
- src: url('sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
- url('sourcesanspro-regular-webfont.woff') format('woff'),
- url('sourcesanspro-regular-webfont.ttf') format('truetype'),
- url('cmunit-webfont.svg#FontName') format('svg');
- font-weight: normal;
- font-style: normal;
+  font-family: 'sourcesans';
+  src: url('sourcesanspro-regular-webfont.eot');
+  src: url('sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('sourcesanspro-regular-webfont.woff') format('woff'), url('sourcesanspro-regular-webfont.ttf') format('truetype'), url('cmunit-webfont.svg#FontName') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-
-textarea {
-	width:105%;
-	height: 105%;
-	position:absolute;
-	/*letter-spacing: 0.12em;*/
-	margin:-0.6%;
-	padding-top:0.6%; 
-	outline: none;
+html,body {
+	height: 100%;
+	margin: 0;
 }
-
 
 .fr {
-
-	text-decoration: none;
-	font-family: 'sourcesans', helvetica, sans-serif;
-	color:black;
-    font-size:1.25vw;
-    line-height:1.25vw;
+  text-decoration: none;
+  font-family: 'sourcesans', helvetica, sans-serif;
+  color: black;
+  font-size: 2em;
+  line-height: 2em;
+  outline: none;
+  height: 99%;
+  width: 99%;
+  margin: 0 auto;
+  border: none;
 }
